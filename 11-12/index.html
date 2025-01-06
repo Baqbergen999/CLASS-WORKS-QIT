@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sabak</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <!-- <button id="plus">+</button>
+    <h1 id="num">0</h1>
+    <button id="minus">-</button> -->
+    <div id="circle"></div>
+    <button id="change">Градиент беру</button>
+    <script>
+        const circle = document.getElementById("circle");
+        const change = document.getElementById("change");
+        change.addEventListener("click", () => {
+            let changed1 = prompt("Түсті таңда:");
+            let changed2 = prompt("Түсті таңда:");
+            circle.style.background = `linear-gradient(${changed1}, ${changed2})`;
+        });
+
+
+        // const num = document.getElementById("num");
+        // const plus = document.getElementById("plus");
+        // const minus = document.getElementById("minus");
+        // number = 0;
+        // plus.addEventListener("click", () => {
+        //     number++
+        //     num.textContent = number;
+
+        // });
+        // minus.addEventListener("click", () => {
+        //     number--
+        //     num.textContent = number;
+
+        // })
+
+        // const elements = document.querySelectorAll(".element");
+        // elements.forEach(element => {
+        //     element.addEventListener("click", () => {
+        //         element.style.color = 'red';
+        //         element.style.fontSize = '20px';
+        //     })
+        // })
+
+
+        // const color = document.getElementById("color");
+        // const cancel = document.getElementById("cancel");
+        // const box = document.getElementById('box');
+        // color.addEventListener("click", () => {
+        //     box.style.background = "red";    
+        // });
+        // box.addEventListener("mouseenter", () => {
+        //     box.style.background = "purple";
+        // });
+        // box.addEventListener("mouseleave", () => {
+        //     box.style.background = "rgb(10, 218, 10)";
+        // });
+        // box.addEventListener("dblclick", () => {
+        //     box.textContent = "Екі рет басылды";
+        //     box.style.alignItems = "center";
+        //     box.style.justifyContent = "center";
+        // });
+        // cancel.addEventListener("click", () => {
+        //     box.style.background = "rgb(10, 218, 10)";
+        //     box.textContent = "";
+        // });
+        
+
+        // document.querySelector(".body").style.background = "gainsboro";
+    //   const button = document.getElementById("myButton");
+    //   const dark = document.getElementById("dark");
+    //   const display = document.getElementById("display");
+
+    //   dark.addEventListener("click", () => {
+    //     document.querySelector(".body").style.background = "black";
+    //     display.style.color = "white";
+    //     button.style.borderColor = "white";
+    //   });
+    //   button.addEventListener("click", () => {
+    //     button.textContent = "Ашық";
+    //   });
+
+    //   button.addEventListener("mouseenter", () => {
+    //     button.textContent = "Қызғылт";
+    //     button.style.scale = 1.2;
+    //     button.style.background = "orange";
+    //     display.textContent = "You hovered button";
+    //   });
+
+    //   button.addEventListener("mouseleave", () => {
+    //     button.textContent = "күлгін";
+    //     button.style.scale = 1;
+    //     button.style.background = "purple";
+    //     display.textContent = "You unhovered button";
+    //   });
+    </script>
+  </body>
+</html>

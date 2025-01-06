@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img id="top" src="https://masterpiecer-images.s3.yandex.net/8c83f1b66e5411ee886e3a7ca4cc1bdc:upscaled" alt="">
+            <h1>ZHANHUAK</h1>
+        </div>
+        <nav class="navOne">
+            <a href="">About us</a>
+            <a href="">Partners</a> 
+            <a href="">Download</a>
+        </nav>
+        <nav class="navTwo">
+            <a href="">Sign in</a>
+            <a class="blueSign" href="">Sign up</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="errorMessage">Problem example</div>
+        <form id="request">
+            <h2>Заявка</h2>
+            <input type="text" id="name" placeholder="Атыңыз">
+            <input type="text" id="phone" placeholder="Телефон нөміріңіз">
+
+            <select id="problem">
+                <option value="" disabled selected>Вариант таңдаңыз</option>
+                <option value="bailanys">Байланыс жоқтығы</option>
+                <option value="internet">Интернет баяу</option>
+                <option value="tv">Телевизор жасамайды</option>
+            </select>
+
+            <textarea id="comment"></textarea>
+
+            <button type="submit">Жіберу</button>
+        </form>
+    </div>
+
+    <a id="arrowUp" href="#top">UP</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
