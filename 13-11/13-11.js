@@ -154,3 +154,36 @@ do {
 
 alert("Cіз " + num + " ұпай жинадыңыз!");
 
+
+
+
+
+
+
+
+const apiUrl = 'https://jsonplaceholder.typicode.com/posts/5';
+
+fetch(apiUrl)
+.then(response => {
+if (!response.ok) {
+throw new Error('Не удалось получить данные');
+}
+return response.json();
+})
+.then(data => {
+// Выводим заголовок и содержание поста
+const postTitle = data.title;
+const postBody = data.body;
+
+document.body.innerHTML = `
+<h2>Заголовок поста: ${postTitle}</h2>
+<p>Содержание: ${postBody}</p>
+`;
+})
+.catch(error => {
+console.error('Ошибка:'
+
+, error);
+
+document.body.innerHTML = '<p>Не удалось загрузить пост.</p>';
+});

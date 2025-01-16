@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: blueviolet;
+    position: relative;
+    height: 100vh;
+}
+.wrapper {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.cards, .card, .view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    height: 800px;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card {
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+    width: calc(100%/4);
+    height: calc(100%/4);
+}
+.view {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 7px;
+    background: white;
+    backface-visibility: hidden;
+}
+.front-view img {
+    width: 150px;
+    border-radius: 20px;
+    border: 5px black solid;
+}
+.back-view img {
+    width: 150px;
+}
+.back-view {
+    transform: rotateY(-180deg);
+}
+
+
+
+
+.btns {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-between;
+}
+#startButton, #resetButton {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 35px;
+    color: white;
+}
+#startButton {
+    background: green;
+}
+#resetButton {
+    background: orange;
+}
+#timer {
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    background: red;
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+#result {
+    position: absolute;
+    top: 43px;
+    left: 45%;
+    color: yellow;
+    font-size: 35px;
+}
+.card{
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+.flipped {
+    transform: rotateY(-180deg);
+}
