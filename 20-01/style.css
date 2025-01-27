@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Audiowide&family=Creepster&family=Dancing+Script:wght@400..700&family=Ewert&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lexend+Giga:wght@100..900&family=Lobster&family=Mountains+of+Christmas:wght@400;700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); body {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: rgb(229, 229, 229);
+}
+
+.quession {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(63, 63, 63);
+    background: white;
+    padding: 20px;
+    height: fit-content;
+}
+.image img {
+    width: 500px;
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.answers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+.timer h1{
+    background: rgb(132, 0, 255);
+    color: white;
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.variants button{
+    width: 49%;
+    padding: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+.variants {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+.firstVariant {
+    background: red;
+}
+.secondVariant {
+    background: rgb(49, 118, 255);
+}
+.thirdVariant {
+    background: rgb(255, 234, 0);
+}
+.fourthVariant {
+    background: green;
+}
+.skip {
+    background: blue;
+    font-size: 10px;
+    width: 80px;
+    color: white;
+    padding: 1px;
+    border: 2px rgb(1, 62, 160) solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 130px;
+    right: 10px;
+}

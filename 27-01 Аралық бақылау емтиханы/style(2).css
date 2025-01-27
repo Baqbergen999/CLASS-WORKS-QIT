@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('https://wallpapers.com/images/hd/surreal-vista-of-a-bustling-urban-skyline-in-4k-resolution-eae11l38l12zh2qw.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+    background: #0000005f;
+    margin-top: 100px;
+    height: 500px;
+}
+
+#search {
+    width: 500px;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#searchButton {
+    padding: 10px;
+    border-radius: 10px;
+    background: #5751ff;
+    color: white;
+    transition: 0.3s all;
+    padding: 17px;
+    font-size: 15px;
+    border-radius: 100px;
+    width: 150px;
+    cursor: pointer;
+}
+#searchButton:hover {
+    background: #0600bc;
+}
+
+#cityList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cityList li {
+    padding: 5px 0;
+    transform: translateY(30px);
+}
+
+#errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+li {
+    text-align: center;
+    font-size: 20px;
+}
