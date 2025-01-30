@@ -3,18 +3,23 @@ var searchInput = document.getElementById('search');
 var cityList = document.getElementById('cityList');
 var errorMessage = document.getElementById('errorMessage');
 
-async function fetchCities() {
-    try {
-        let response = await fetch('https://jsonplaceholder.typicode.com/users');
-        if (!response.ok) {
-            throw new Error('Мәліметтерді алу мүмкін болмады:(');
-        }
-        let data = await response.json();
-        return data.map(user => user.address.city);
-    } catch (error) {
-        errorMessage.textContent = 'Кате орын алды: ' + error.message;
-        return [];
-    }
+function fetchCities() {
+    return fetch('https://jsonplaceholder.typicode.com/users')
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(function(data) {
+            return data.map(function(user) {
+                return user.address.city;
+            });
+        })
+        .catch(function(error) {
+            errorMessage.textContent = 'Кате орын алды: ' + error.message;
+            return [];
+        });
 }
 
 function displayCities(cities) {
@@ -32,24 +37,12 @@ function searchCities(cities, query) {
     });
 }
 
-searchButton.addEventListener('click', async function() {
+searchButton.addEventListener('click', function() {
     var query = searchInput.value;
-    try {
-        let cities = await fetchCities();
+    fetchCities().then(function(cities) {
         var filteredCities = searchCities(cities, query);
         displayCities(filteredCities);
-    } catch (error) {
-        errorMessage.textContent = 'Кате орын алды: ' + error.message;
-    }
+    });
 });
 
-async function initializeCities() {
-    try {
-        let cities = await fetchCities();
-        displayCities(cities);
-    } catch (error) {
-        errorMessage.textContent = 'Кате орын алды: ' + error.message;
-    }
-}
-
-initializeCities();
+fetchCities().then(displayCities);
