@@ -39,13 +39,11 @@ const saveButton = document.getElementById("saveBtn");
 
 function saveData() {
   sessionStorage.setItem("color", colorField.value);
-  document.body.style.backgroundColor = colorField.value;
 }
 
 function clearData() {
   sessionStorage.removeItem("color");
   document.body.style.backgroundColor = "white";
-  colorField.value = '';
 }
 
 function displaySavedColor() {
@@ -58,5 +56,4 @@ saveButton.addEventListener("click", (e) => {
   e.preventDefault();
   saveData();
 });
-
 displaySavedColor();
