@@ -95,7 +95,7 @@ addBtn.addEventListener("click", (e) => {
       <button class="save">Save</button>
       <button class="cancel">Cancel</button>
     </div>`;
-  addForm.style.display = 'flex';
+  addForm.style.display = 'block';
 
   const saveBtn = addForm.querySelector(".save");
   const cancelBtn = addForm.querySelector(".cancel");
