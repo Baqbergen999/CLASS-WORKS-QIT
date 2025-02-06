@@ -4,8 +4,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url("https://wallpapercat.com/w/full/6/8/7/17981-3840x2160-desktop-4k-rain-wallpaper.jpg");
+  background-image: url("https://images.wallpaperscraft.ru/image/single/kapli_dozhd_steklo_80971_1280x720.jpg");
   color: white;
+  background-size: cover;
   overflow-x: hidden;
 }
 
@@ -27,9 +28,6 @@ header {
 }
 
 .logo {
-  position: absolute;
-  top: 10px;
-  left: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -56,10 +54,12 @@ nav {
   right: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 25px;
   font-family: "Staatliches", serif;
   font-weight: 100;
   font-style: normal;
+  width: 94%;
 }
 
 nav a {
@@ -68,6 +68,10 @@ nav a {
   font-size: 22px;
   text-shadow: 0px 0px 10px white;
   transition: 0.5s;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
 }
 
 .header-content {
@@ -98,7 +102,6 @@ header form {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 15rem;
 }
 
 header input {
