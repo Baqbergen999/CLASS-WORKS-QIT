@@ -1,0 +1,92 @@
+{
+  "meals": [
+    {
+      "idMeal": "53061",
+      "strMeal": "Fresh Sardines",
+      "strCategory": "Side",
+      "strArea": "Croatian",
+      "strInstructions": "Wash the fish under the cold tap. Roll in the flour and deep fry in oil until crispy. Lay on kitchen towel to get rid of the excess oil and serve hot or cold with a slice of lemon.",
+      "strMealThumb": "https://realgreekrecipes.com/wp-content/uploads/2018/06/Baked-Fresh-Sardine-Recipe.jpg",
+      "strTags": "Fresh",
+      "strTime": "20 min",
+      "strCalories": "140 kcal"
+    },
+    {
+      "idMeal": "52796",
+      "strMeal": "Chicken Alfredo",
+      "strCategory": "Main",
+      "strArea": "Italian",
+      "strInstructions": "Cook the pasta and set aside. In a pan, melt butter, add garlic, and cook chicken. Stir in cream and Parmesan cheese. Mix with pasta and serve hot.",
+      "strMealThumb": "https://iwashyoudry.com/wp-content/uploads/2022/08/Chicken-Alfredo-Low-Res-21.jpg",
+      "strTags": "Creamy",
+      "strTime": "30 min",
+      "strCalories": "600 kcal"
+    },
+    {
+      "idMeal": "53013",
+      "strMeal": "Beef Stroganoff",
+      "strCategory": "Main",
+      "strArea": "Russian",
+      "strInstructions": "Slice beef into strips, sauté in butter, add onions and mushrooms, and cook with sour cream. Serve over egg noodles or rice.",
+      "strMealThumb": "https://www.gimmesomeoven.com/wp-content/uploads/2020/10/Beef-Stroganoff-Recipe-9.jpg",
+      "strTags": "Savory",
+      "strTime": "35 min",
+      "strCalories": "550 kcal"
+    },
+    {
+      "idMeal": "52777",
+      "strMeal": "Tuna Nicoise Salad",
+      "strCategory": "Salad",
+      "strArea": "French",
+      "strInstructions": "Combine tuna, boiled eggs, green beans, tomatoes, and olives with a simple vinaigrette. Serve chilled.",
+      "strMealThumb": "https://www.eatingwell.com/thmb/crwxYUXbpof-26BbGtElEC0bWjk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8026382-tuna-nicoise-salad-beauty-square-ad8785eee6364fe18941b4989ab2d81d.jpg",
+      "strTags": "Healthy",
+      "strTime": "25 min",
+      "strCalories": "320 kcal"
+    },
+    {
+      "idMeal": "52929",
+      "strMeal": "Spaghetti Carbonara",
+      "strCategory": "Pasta",
+      "strArea": "Italian",
+      "strInstructions": "Cook spaghetti, then mix with eggs, cheese, pancetta, and black pepper. Serve immediately.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wtsvxx1511296896.jpg",
+      "strTags": "Classic",
+      "strTime": "20 min",
+      "strCalories": "550 kcal"
+    },
+    {
+      "idMeal": "52897",
+      "strMeal": "Grilled Salmon",
+      "strCategory": "Main",
+      "strArea": "American",
+      "strInstructions": "Season salmon with salt, pepper, and lemon. Grill until cooked through. Serve with vegetables or rice.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg",
+      "strTags": "Healthy",
+      "strTime": "30 min",
+      "strCalories": "400 kcal"
+    },
+    {
+      "idMeal": "52954",
+      "strMeal": "Vegetable Stir Fry",
+      "strCategory": "Vegetarian",
+      "strArea": "Asian",
+      "strInstructions": "Sauté mixed vegetables in sesame oil with garlic and soy sauce. Serve with rice or noodles.",
+      "strMealThumb": "https://www.wholesomeyum.com/wp-content/uploads/2020/11/wholesomeyum-Stir-Fry-Vegetables-15.jpg",
+      "strTags": "Vegan",
+      "strTime": "15 min",
+      "strCalories": "280 kcal"
+    },
+    {
+      "idMeal": "53062",
+      "strMeal": "Chocolate Cake",
+      "strCategory": "Dessert",
+      "strArea": "American",
+      "strInstructions": "Mix ingredients, bake at 350°F for 30 minutes.",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg",
+      "strTags": "Sweet",
+      "strTime": "45 min",
+      "strCalories": "450 kcal"
+    }
+  ]
+}

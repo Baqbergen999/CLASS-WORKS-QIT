@@ -81,3 +81,7 @@ function loadWeather() {
 }
 
 window.addEventListener("load", loadWeather);
+
+
+
+
