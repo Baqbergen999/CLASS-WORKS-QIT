@@ -176,3 +176,100 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .logo {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .product-card img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .product-card img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .hero button {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    .product-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .product-card p {
+        font-size: 0.9rem;
+    }
+
+    .product-card button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
