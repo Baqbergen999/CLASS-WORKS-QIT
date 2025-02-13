@@ -52,5 +52,4 @@ function renderFoods() {
 
 document.addEventListener("DOMContentLoaded", () => {
   renderFoods();
-  document.getElementById("cart").style.display = "none";
 });

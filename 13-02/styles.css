@@ -177,6 +177,13 @@ footer {
     margin-top: 40px;
 }
 
+@media (max-width: 945px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -188,8 +195,9 @@ footer {
     }
 
     header nav ul {
-        flex-direction: column;
         gap: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero {
@@ -271,5 +279,12 @@ footer {
     .product-card button {
         font-size: 0.9rem;
         padding: 8px 16px;
+    }
+    header nav ul li a {
+        font-size: 0.8rem;
+    }
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
